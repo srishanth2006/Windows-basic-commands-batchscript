@@ -26,16 +26,31 @@ Execute the necessary commands/batch file for the desired output.
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "MyLab" on the desktop.
+```
+  mkdir %userprofile%\Desktop\MyLab
+```
+<img width="556" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/e9f82d79-62ec-487d-a846-8eac83572012">
 
 
 ## COMMAND AND OUTPUT
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
+```
+cd %userprofile%\Desktop\MyLab
+```
+<img width="557" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/cf654e0c-4128-42b5-81a3-617da1a2b6a2">
+<img width="557" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/e776703c-d238-4c8b-91c4-08afbb92609a">
 
 
 ## COMMAND AND OUTPUT
 
 List the contents of the "MyLab" directory.
+
+```
+cd %userprofile%\Desktop\MyLab
+```
+<img width="557" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/cf654e0c-4128-42b5-81a3-617da1a2b6a2">
+<img width="557" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/e776703c-d238-4c8b-91c4-08afbb92609a">
 
 
 ## COMMAND AND OUTPUT
@@ -43,6 +58,10 @@ List the contents of the "MyLab" directory.
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
 ## COMMAND AND OUTPUT
+```
+
+dir %userprofile%\Desktop\MyLab
+
 
 Move the "MyLab" directory to the "Documents" folder.
 
