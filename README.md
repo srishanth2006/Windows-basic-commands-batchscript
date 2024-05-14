@@ -31,7 +31,8 @@ Create a directory named "MyLab" on the desktop.
 mkdir %userprofile%\Desktop\MyLab
 ```
 
-<img width="608" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/42889211-6926-485b-98c4-0618fc65ff65">
+<img width="475" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/25bcfdfb-fe09-4cbe-be9e-6a090521bb9c">
+
 
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
@@ -43,12 +44,12 @@ List the contents of the "MyLab" directory.
 ```
 cd %userprofile%\Desktop\MyLab
 ```
-<img width="578" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/7bc66f40-2c28-4cde-8421-32fbc1cd7cb0">
+<img width="434" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/2ce767e7-8c06-461c-a5f9-f26b581ed266">
+```
+type nul > MyFile.txt
+```
 
-
-<img width="570" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/f5e219e7-c493-4019-802e-3d5f1181a9e4">
-
-
+<img width="464" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/3aa80ec0-c738-4afd-b0de-9d7fc2d73e3d">
 
 ## COMMAND AND OUTPUT
 
@@ -57,27 +58,26 @@ Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 dir %userprofile%\Desktop\MyLab
 ```
 
-<img width="539" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/e0da1b72-ee9d-42f6-aee7-d6af77816408">
+<img width="542" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/33d216fa-a207-49a0-bb0e-20cfec616dba">
 
 ## COMMAND AND OUTPUT
 
 Move the "MyLab" directory to the "Documents" folder.
 ```
 mkdir %userprofile%\Desktop\Backup
-
+```
+<img width="533" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/2723c481-f3d2-4fd7-be75-3f710ba9c0d9">
+```
 copy MyFile.txt %userprofile%\Desktop\Backup
 ```
-<img width="524" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/7a255209-33f6-41de-9e16-fdeaa96e625d">
-
-
-<img width="677" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/fd63cf21-915f-4a0d-b7ec-4c2744921039">
+<img width="556" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/032194cc-33eb-4cea-a5db-813e1bb9fec7">
 
 ## COMMAND AND OUTPUT
 ```
 mv Myfile.txt %userprofile%\Documents
 ```
 
-![image](https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/96bc25c5-7331-4f49-b3d4-a70b3ab28bf3)
+<img width="553" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/67af9b36-9929-432d-963d-cab6fdf8c1a1">
 
 
 
@@ -90,6 +90,8 @@ mkdir %userprofile%\Desktop\DocBackup
 copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
 echo Backup completed successfully!
 ```
+## OUTPUT
+<img width="556" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/8991ebe5-1ac1-4c3f-a68e-2b696fdde8ed">
 
 Modify the script to delete files with the ".docx" extension from the "Documents" folder after creating the backup.
 ```
@@ -102,8 +104,7 @@ echo Backup and deletion completed successfully!
 
 ## OUTPUT
 
-![image](https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/cba00f83-1281-41e6-b4ec-a357ef2557d7)
-
+<img width="557" alt="image" src="https://github.com/srishanth2006/Windows-basic-commands-batchscript/assets/150319470/90cd6c02-2e9e-4b87-b86c-5d68df5bfe8a">
 
 
 # RESULT:
